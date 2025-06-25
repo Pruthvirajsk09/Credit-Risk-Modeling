@@ -25,35 +25,35 @@ This project focuses on analyzing financial data to predict loan default risk us
 ✅ Fine-tune models using Randomized Search CV for hyperparameter optimization.
 
 🏗️ Project Workflow
-1. Data Cleaning
+### 🔹1. Data Cleaning
 Handle missing values (fillna, drop).
 
 Remove duplicates and irrelevant columns.
 
-2. Exploratory Data Analysis (EDA)
+### 🔹2. Exploratory Data Analysis (EDA)
 Understand distributions and relationships.
 
 Visualizations: histograms, boxplots, scatter plots.
 
-3. Feature Engineering
+### 🔹3. Feature Engineering
 Creation of new features based on domain knowledge.
 
 Transformation of variables for better model learning.
 
-4. Feature Selection
+### 🔹4. Feature Selection
 Information Value (IV) analysis to select predictive variables.
 
 Variance Inflation Factor (VIF) to detect and remove multicollinearity.
 
-5. Feature Encoding
+### 🔹5. Feature Encoding
 Apply Weight of Evidence (WOE) encoding for categorical variables.
 
 Convert variables into model-friendly formats.
 
-6. Scaling
+### 🔹6. Scaling
 Standardize or normalize numerical features to improve model convergence.
 
-7. Model Building
+### 🔹7. Model Building
 Split data into training and testing sets.
 
 Build classification models using:
@@ -66,10 +66,10 @@ Random Forest
 
 Other models as applicable
 
-8. Hyperparameter Tuning
+### 🔹8. Hyperparameter Tuning
 Use Randomized Search CV to fine-tune model hyperparameters for better performance.
 
-9. Model Evaluation
+### 🔹9. Model Evaluation
 Evaluate models using metrics such as:
 
 Accuracy
@@ -102,7 +102,7 @@ scipy
 statsmodels
 
 
-🚀 Results & Insights
+### 🚀 Results & Insights
 ✅ A clean, engineered dataset ready for predictive modeling.
 
 ✅ Key predictors identified using IV and WOE analysis.
